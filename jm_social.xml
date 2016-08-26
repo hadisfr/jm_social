@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>jm_social</name>
+    <author>Hadi Safari</author>
+    <authorEmail>hadisafari76@gmail.com</authorEmail>
+    <version>1.0.0</version>
+    <description>A social media link module.&lt;br&gt;&lt;small&gt;Currently Telegram and Instagram.&lt;/small&gt;&lt;br&gt;&lt;br&gt;Designed by &lt;span title="hadisafari76[at]gmail.com"&gt;Hadi Safari.&lt;/span&gt;</description>
+    <files>
+        <filename>jm_social.xml</filename>
+        <filename module="jm_social">jm_social.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>css/style.css</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+        <filename>img/telegram.png</filename>
+        <filename>img/instagram.png</filename>
+    </files>
+    <config><fields name="params"><fieldset name="Basic">
+        <field name="telegram" type="URL" default="" label="Telegram" /><!--http://telegram.org-->
+        <field name="instagram" type="URL" default="" label="Instagram" /><!--https://www.instagram.com-->
+        <field type="spacer" name="myspacer" hr="true" />
+        <field name="padded" type="radio" default="1" class="btn-group btn-group-yesno" label="Padded"><option value="0">JNO</option><option value="1">JYES</option></field>
+        <field name="center" type="radio" default="0" class="btn-group btn-group-yesno" label="Center"><option value="0">JNO</option><option value="1">JYES</option></field>
+    </fieldset></fields></config>
+</extension>

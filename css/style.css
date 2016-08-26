@@ -1,0 +1,30 @@
+.jm_social a{
+	background: #c4c2a1 center / 70% no-repeat;
+	background-blend-mode: luminosity;
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	color: #474431;
+	margin: 16px;
+	border-radius: 50%;
+	border-bottom-right-radius: 0;
+}
+.jm_social a:hover{
+	background-color: #e6d294;
+	background-size: 73%;
+}
+.jm_social a#telegram{
+	background-image: url("../img/telegram.png");
+}
+.jm_social a#instagram{
+	background-image: url("../img/instagram.png");
+}
+.jm_social.center{
+	text-align: center;
+}
+.jm_social.padded{
+	padding-right: 26px;
+	padding-left: 26px;
+}
